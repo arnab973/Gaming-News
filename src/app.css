@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('/backgroundImageSign.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+:root {
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #001219;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #051D26;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2EC4B6;
+  cursor: pointer;
+
+}
+@layer base {
+  @font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Roboto.woff2) format('woff2');
+  }
+
+  .font-title-regular {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-title-medium {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .font-title-semibold {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .font-title-bold {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+}
+
+@layer components {
+  .text-color-title {
+    @apply text-[#1E9B8F] dark:text-[#69D3C9];
+  }
+
+  .text-color-body {
+    @apply text-[#000B10] dark:text-white;
+  }
+
+  .bg-color-0 {
+    @apply bg-[#FDFDFD] dark:bg-[#000B10];
+  }
+
+  .bg-color-mid {
+    @apply bg-[#E6F4F3] dark:bg-[#00141E];
+  }
+}
