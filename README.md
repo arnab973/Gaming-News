@@ -37,7 +37,7 @@ Currently not working.
 - [Bárbara Fernandes Rampazi](https://github.com/caramelPopp) &nbsp; (caramelPopp)
 - [Fellipe Leonardo Peixoto Cunha](https://github.com/rakRandom) &nbsp; (rakRandom)
 - [Henrique da Silva Macedo](https://github.com/HickSouldrow) &nbsp; (HickSouldrow)
-- [Lucas Tino Rosa](https://github.com/Lucas-Tino) &nbsp; (Lucas T.)
+- [Lucas Tino Rosa](https://github.com/Lucas-Tino) &nbsp; (Lucas T. )
 - [Matheus Jorge Santana](https://github.com/mathsant-js) &nbsp; (mathsant-js)
 
 ## License
